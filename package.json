@@ -4,6 +4,10 @@
  "description": "GitHub Actions CI/CD 학습용 계산기",
  "type": "module",
  "scripts": {
- "start": "npx http-server src -p 8080 -c-1"
- }
+  "start": "npx http-server src -p 8080 -c-1"
+ },
+ "main": "index.js",
+ "keywords": [],
+ "author": "",
+ "license": "ISC"
 }
