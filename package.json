@@ -11,5 +11,14 @@
  "test:integration": "jest tests/integration",
  "test": "jest"
  },
- "devDependencies": { "...": "npm install이 자동으로 채움" }
+ "devDependencies": {
+  "@babel/core": "^7.29.7",
+  "@babel/preset-env": "^7.29.7",
+  "babel-jest": "^30.4.1",
+  "eslint": "^10.4.1",
+  "globals": "^17.6.0",
+  "http-server": "^14.1.1",
+  "jest": "^30.4.2",
+  "jest-environment-jsdom": "^30.4.1"
+ }
 }
